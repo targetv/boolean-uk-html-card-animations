@@ -105,3 +105,11 @@ footer{
     grid-area: footer;
     text-align: center;
 }
+.followers{
+    display: block;
+    color: white;
+}
+.number{
+    display: block;
+    color: white;
+}
