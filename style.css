@@ -56,6 +56,30 @@ nav a{
     text-decoration: none;
 }
 
+.icon-arrow:hover{
+   width: 40px;
+   height: 40px;
+   padding: 2px;
+   border-radius: 50%;
+   background-color: white;
+   color: #333a4b;
+}
+
+.icon-arrow:active{
+    width: 40px;
+    height: 40px;
+    padding: 2px;
+    border-radius: 50%;
+    background-color: white;
+    color: green;
+
+}
+
+.icon-heart:hover{
+    color: rgb(218, 42, 71);
+
+}
+
 /* Main section */
 
 main{
@@ -82,9 +106,34 @@ main a {
     padding: 13px 40px;
     border-radius: 20px;
     text-decoration: none;
+    display: inline-block;  
+}
 
+ .hire:hover{
+    animation: flick 2s linear ;
     
 }
+
+@keyframes flick{
+    0%{
+        transform: rotate(0deg);
+        
+    }
+    30%{
+        transform: rotate(10deg);
+    }
+    60%{
+        transform: rotate(0deg);
+    }
+    90%{
+        transform: rotate(-10deg);
+    }
+    100%{
+        transform: rotate(0deg);
+        background: linear-gradient(#9198e5, #e66465);
+    }
+    }
+
 
 main section p {
     color: rgb(184, 181, 181);
@@ -125,6 +174,30 @@ footer{
     background: linear-gradient(#e66465, #9198e5);
     border-radius: 50%;
 }
+
+.icon1:hover{
+    animation: rotate 3s linear;
+}
+
+.icon2:hover{
+    animation: rotate 3s linear;
+}
+
+.icon3:hover{
+    animation: rotate 2s linear;
+}
+
+@keyframes rotate {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(90deg);
+    }
+
+}
+
+
 
 footer li{
     margin: 0px 20px;
