@@ -3,13 +3,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-header a{
-    text-decoration: none;
-}
-nav a{
-    display: inline-block;
-    text-decoration: none;
-}
 
 body{
     display: grid;
@@ -17,24 +10,6 @@ body{
     margin-top: 50px;
 }
 
-nav{
-    display: grid;
-    justify-content: end;
-}
-li{
-    display: inline-block;
-    list-style: none;
-}
-.icon{
-    color: white;
-    font-size: 2rem;
-    font-weight: 200px;
-    margin: 20px 10px;
-}
-.profile-pic{
-    width: 150px;
-    border-radius: 50%;
-}
 .container{
     display: grid;
     grid-template: 
@@ -50,22 +25,50 @@ li{
         border-radius: 5px;
 
 } 
+
+/* Top Nav */
 header{
     display: grid;
     grid-template-columns: 100px 1fr;
     grid-area: header;
 
 }
+
+header a{
+    text-decoration: none;
+}
+
+header .icon{
+    color: white;
+    font-size: 2rem;
+    font-weight: 200px;
+    margin: 20px 10px;
+}
+
+nav{
+    display: grid;
+    justify-content: end;
+}
+
+nav a{
+    display: inline-block;
+    text-decoration: none;
+}
+
+/* Main section */
+
 main{
     grid-area: main;
     text-align: center;
     
 }
+
 main section h1{
     color: white;
     font-size: 3rem;
     font-weight: 300;
 }
+
 main section h3{
     color: 	#808080;
     font-weight: 200;
@@ -80,17 +83,34 @@ main a {
 
     
 }
-hr{
-    display: block;
-    margin: 30px 20px;
-}
-
 
 main section p {
     color: rgb(151, 143, 143);
     font-size: 1.1rem;
     margin: 0px 0px 30px 0px;
 
+}
+
+.profile-pic{
+    width: 150px;
+    border-radius: 50%;
+}
+
+li{
+    display: inline-block;
+    list-style: none;
+}
+
+hr{
+    display: block;
+    margin: 30px 20px;
+}
+
+/* Footer */
+
+footer{
+    grid-area: footer;
+    text-align: center;
 }
 
 .footer-icons{
@@ -107,10 +127,7 @@ footer li{
     margin: 0px 20px;
 }
 
-footer{
-    grid-area: footer;
-    text-align: center;
-}
+
 footer span{
     display: block;
     color: white;
