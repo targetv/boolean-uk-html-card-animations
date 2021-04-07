@@ -43,7 +43,7 @@ header .icon{
     color: white;
     font-size: 2rem;
     font-weight: 200px;
-    margin: 20px 10px;
+    margin: 0px 10px;
 }
 
 nav{
@@ -54,6 +54,9 @@ nav{
 nav a{
     display: inline-block;
     text-decoration: none;
+}
+.icon-heart{
+    display: inline-block;
 }
 
 .icon-arrow:hover{
@@ -77,6 +80,10 @@ nav a{
 
 .icon-heart:hover{
     color: rgb(218, 42, 71);
+}
+
+.icon-heart:active{
+    transform: scale(1.2);
 
 }
 
