@@ -71,7 +71,7 @@ main section h1{
 }
 
 main section h3{
-    color: 	#808080;
+    color: 	#c5c5c5;
     font-weight: 200;
     margin: 10px;
 }
@@ -87,7 +87,7 @@ main a {
 }
 
 main section p {
-    color: rgb(151, 143, 143);
+    color: rgb(184, 181, 181);
     font-size: 1.1rem;
     margin: 0px 0px 30px 0px;
 
